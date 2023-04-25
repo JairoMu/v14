@@ -1,0 +1,126 @@
+body{
+    background-color:rgb(37, 93, 148);
+    font-size: large;
+}
+h1{
+    font-family: sans-serif;
+    width: 300px;
+}
+.imagen{
+    position: relative;
+    top: -220px;
+    left: -325px;
+    width: 15%;
+    height:auto;    
+    border-radius: 76.7142px;
+    transform: rotate(-0.44deg);
+}
+.titulo {
+position: relative;
+text-align: center;
+width:99% ;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+}
+.h3{
+    position: relative;
+    text-align: center;
+    padding-left:-150px ;
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 20px;
+}
+.contenedor{
+    width:100%;
+    background-color:rgb(22, 154, 240 ) ;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.Links{
+    position: relative;
+    display: block;
+    color: white;
+    background-color: black;
+    top: -325px;
+    text-decoration:none;   
+    float: left;
+    padding: 10px 90px;
+    font-size: 20px;
+    border-radius: 42px;
+}
+.contenedor2{
+    background-color:rgb(239, 241, 243);
+    border-radius: 45px;
+    position: relative;
+
+    top:100px;
+    padding-left:450px;
+    height: 325px;
+}
+.hab{
+   position: relative;
+   top:25px;
+}
+.hab1{
+   position: relative;
+   top: 30px;
+}
+
+/* Media Queries */
+
+/* Ajustar estilos para dispositivos con una anchura máxima de 768px */
+@media only screen and (max-width: 768px) {
+    h1 {
+        max-width: 100%;
+    }
+    .imagen {
+        width: 50%;
+        left: auto;
+        right: auto;
+    }
+    .titulo {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .h3 {
+        font-size: 16px;
+    }
+    .Links {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin: 5px;
+    }
+    .contenedor2 {
+        padding: 0 5%;
+    }
+}
+
+/* Ajustar estilos para dispositivos con una anchura máxima de 480px */
+@media only screen and (max-width: 480px) {
+    .imagen {
+        width: 75%;
+    }
+    .titulo {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .h3 {
+        font-size: 14px;
+    }
+    .Links {
+        padding: 10px 12px;
+        font-size: 14px;
+        margin: 3px;
+    }
+    .contenedor2 {
+        height: auto;
+        padding: 10px;
+    }
+}
